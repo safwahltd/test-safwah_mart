@@ -1,0 +1,159 @@
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.add-image label.upload-image, label.check-image, label.gallery-image, .add-more {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #E1ECFF;
+    border-style: dotted;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.add-image label.upload-image:before {
+    content: '\f030';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    opacity: .7;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -14px;
+    color: #E1ECFF;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* label.check-image:before {
+    content: '\f058';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -14px;
+    color: #346cb0;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+} */
+
+.add-more:before {
+    content: '\f055';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -14px;
+    color: #346cb0;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-image label.upload-image:hover:before, .add-more:hover:before {
+    color: #346cb0;
+}
+
+.add-image label.upload-image input {
+    display: none;
+}
+
+label.gallery-image input {
+    display: none;
+}
+
+.add-image img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+.add-image #more__img label.upload-image:first-child {
+    margin-left: -3px !important;
+}
+
+.remove {
+    position: absolute;
+    font-size: 10px;
+    padding: 2px 6px;
+    right: -9px;
+    top: -9px;
+    background-color: rgb(255, 134, 134);
+    border-radius: 50%;
+}
+
+.tab-content {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.heading {
+    padding: 10px !important;
+    text-align: center;
+    font-weight: bold
+}
+
+.image-checked {
+    position: absolute !important;
+    top: -11px !important;
+    right: -7px !important;
+    cursor: pointer;
+}
+
+.gallery-image {
+    position: relative !important;
+}
+
+.gallery-image:hover img {
+    opacity: 0.2 !important;
+}
+
+
+
+.gallery-image:hover .delete-image {
+    opacity: 1 !important;
+}
+
+
+.delete-image {
+    transition: .5s ease !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    border: none !important;
+    border-radius: 50% !important;
+    padding: 3px 6px !important;
+}
+

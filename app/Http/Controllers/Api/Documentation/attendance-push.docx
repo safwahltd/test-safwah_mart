@@ -1,0 +1,35 @@
+﻿API Documentation
+A Complete guide to push attendance data from local PC to server.
+
+    • Push URL    : base_url/api/push 
+    • Method      : POST
+
+
+
+    • Parameter   : {
+    'identifier'    => attendance device identifier
+
+    'push_key'      => contact with smart software ltd. For
+ 				getting push key for your application,
+
+    'date'          => attendance time,
+
+    'user'          => attendance user id( it can be finger id 				or person id),
+}
+
+
+
+    • response: {
+ 'accepted' => if successfully completed,
+
+ 'Device { identifier } not registered on server'=> if this 	attendance device not registered in the server,
+
+ 'Required data missing' => if any of parameter missing,
+
+ 'Push key error'  => if invalid push key,
+    'Push key missing' => if push key not send
+}
+
+
+
+Note: All parameter's are required.

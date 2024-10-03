@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #bbd4e5;
+}
+
+::-webkit-scrollbar {
+    height: 4px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;               /* width of vertical scrollbar */
+    border: 1px solid #f1f1f1;
+}
+.download-buttons:hover{
+    text-decoration: none;
+}
+.width-27-7{
+    width: 27.7% !important;
+}
+.width-28-3{
+    width: 28.3% !important;
+}
+.width-282n{
+    width: 27.7% !important;
+}
+.width-select .select2-container--default .select2-selection--multiple {
+    border: 1px solid #aaa !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 32px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 32px !important;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.select2-container .select2-selection--single {
+    height: 34px !important;
+    border-radius: 0px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    height: 34px!important;
+    border-radius: 0px !important;
+}
+
+.btn-dark {
+    background-color: #5A6268 !important;
+    border: 1px solid #5A6268;
+}
+
+.btn-dark:hover {
+    background-color: #393f42 !important;
+    border: 1px solid #393f42;
+}
+
+.breadcrumbs {
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 0px !important;
+    height: 35px !important;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.pr{
+    position: relative;
+}
+.dn{
+    display: none;
+}
+.db{
+    display: block;
+}
+.suggest-fontawesome{
+    position: absolute;
+    bottom: -18px;
+    left: 30.7%;
+    transform: translate(-50%, 0%);
+}
+.page-header .page-title {
+    font-size: 2rem;
+}
+
+.btn-black {
+    background-color: #333333 !important;
+    border: 1px solid #333333;
+}
+
+.btn-black:hover {
+    background-color: #222222 !important;
+    border: 1px solid #222222;
+}
+
+.input-group .to{
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.radio-btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.radio-btns input{
+    margin: 5px 5px 0 10px;
+}
+.radio-btns label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio-btns span{
+    margin-top: 5px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none !important;
+    outline: none !important;
+    outline-offset: none !important;
+}
+.new-table td{
+    position: relative;
+}
+.new-table td .span {
+    /* position: absolute; */
+    /* top: 50%; */
+    width: 100%;
+    text-align: center;
+    /* left: 50%; */
+    word-break: break-word;
+    /* transform: translate(-50%, -50%); */
+}
+.new-table td .action-span{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.new-table th{
+    text-align: center;
+}
+
+
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+
+
+
+[type='color'] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0 !important;
+    width: 15px;
+    height: 15px;
+    border: none !important;
+  }
+
+  [type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+
+  [type='color']::-webkit-color-swatch {
+    border: none;
+  }
+  .color-picker label span{
+    margin: -2px 0 0 10px;
+  }
+  .color-picker label{
+    display: flex;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 0;
+  }
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #33ffb7 !important;
+    border: 1px solid #33ffb7 !important;
+    color: #000000 !important;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    margin-right: 5px;
+    padding-left: 20px !important;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #000000 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover, .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:focus {
+    background-color: #33ffb7 !important;
+    color: #000000 !important;
+    outline: none;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 0px !important;
+    background-color: #f7f7f7;
+}
+
+
+.label-yellow {
+    background-color: #ffc107 !important;
+    border: 1px solid #ffc107 !important;
+    color: #000000 !important;
+}
+
+.label-lg {
+    height: 30px !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    border-radius: 50% !important;
+}
+
+.label-md {
+    height: 25px !important;
+    font-size: 16px !important;
+    border-radius: 5% !important;
+}
+
+.label-primary {
+    background-color: #0D6EFD !important;
+    border: 1px solid #0D6EFD !important;
+    color: #ffffff !important;
+}
+
+
+.label-process {
+    background-color: #07ff24 !important;
+    border: 1px solid #07ff24 !important;
+    color: #000000 !important;
+}
+
+
+.label-info {
+    background-color: #48dcf9 !important;
+    border: 1px solid #48dcf9 !important;
+    color: #000000 !important;
+}
+
+
+.label-success {
+    background-color: #198754 !important;
+    border: 1px solid #198754 !important;
+    color: #ffffff !important;
+}
+
+
+.label-danger {
+    background-color: #fb3c3c !important;
+    border: 1px solid #fb3c3c !important;
+    color: #ffffff !important;
+}
+
+
+
+
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+.btn-theme {
+    background: #346cb0 !important;
+    border: 2px solid #346cb0 !important;
+}
+
+.btn-theme:hover {
+    background: #346cb0 !important;
+}
+
+.note-textarea {
+    border: 2px solid #e1ecff;
+    color: #000000 !important
+}
+
+.note-textarea:focus {
+    border: 2px solid #346cb0 !important;
+}
+
+.breadcrumbs {
+    margin-right: -20px !important;
+    margin-left: -20px !important;
+}
+
+.btn-red {
+    background-color: red !important; 
+    color: white; 
+    border: 2px solid red; 
+    border-radius: 4px;
+}
+
+.btn-next {
+    background-color: #E1ECFF !important; 
+    color: black !important;
+    border: 2px solid #346cb0 !important;
+}
+
+.btn-next:hover {
+    background-color: #346cb0 !important; 
+    color: white !important;
+}
+
+.btn-yellow {
+    color: #000000 !important;
+}

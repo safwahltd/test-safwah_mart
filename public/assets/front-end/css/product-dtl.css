@@ -1,0 +1,140 @@
+.msg-option {
+    display: none;
+}
+
+.chatInputBox {
+    width: 100%;
+}
+
+.go-to-chatbox {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    display: none;
+}
+
+.feature_header {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-number:hover {
+    color: #FF4747;
+
+}
+
+.for-total-price {
+    margin-left: -30%;
+}
+
+.for-hover-bg:hover {
+    border: 2px solid#FF4747;
+}
+
+.for-hover-bg {
+    font-size: 18px;
+    height: 45px;
+    color: #FF4747;
+    border: 2px solid#FF4747;
+}
+
+.feature_header span {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .feature_header span {
+        margin-bottom: -40px;
+    }
+
+    .for-total-price {
+        padding-left: 30%;
+    }
+
+    .product-quantity {
+        padding-left: 4%;
+    }
+
+    .for-margin-bnt-mobile {
+        margin-right: 7px;
+    }
+
+    .font-for-tab {
+        font-size: 11px !important;
+
+
+    }
+
+    .pro {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    .for-margin-bnt-mobile {
+        margin-right: 3px;
+    }
+
+    .for-discount {
+        margin-left: 10% !important;
+    }
+
+    .for-dicount-div {
+        margin-top: -5%;
+        margin-right: -7%;
+    }
+
+    .product-quantity {
+        margin-left: 4%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .for-dicount-div {
+        margin-top: -4%;
+        margin-right: -5%;
+    }
+
+    .for-total-price {
+        margin-left: -20%;
+    }
+
+    .view-btn-div {
+
+        margin-top: -9%;
+        float: right;
+    }
+
+    .for-discount {
+        margin-left: 7%;
+    }
+
+    .viw-btn-a {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .feature_header span {
+        margin-bottom: -7px;
+    }
+
+    .for-mobile-capacity {
+        margin-left: 7%;
+    }
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+thead {
+    background: #FF4747 !important;
+    color: white;
+}

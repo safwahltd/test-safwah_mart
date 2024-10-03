@@ -1,0 +1,42 @@
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.logo{
+    height: 25px !important;
+    width: 269px !important;
+}
+
+
+.no-skin .sidebar-shortcuts {
+    background-color: #dfe2cd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+
+.ace-nav>li{
+    border-left: 1px solid #bfc1ae !important;
+}
+
+
+.bg-dark{
+    background-color: #ededed !important;
+}
+
+
+ /* chosen select required  */
+select.required:invalid {
+    height: 0px !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    display: flex !important;
+}
+
+.label-required {
+    color: tomato;
+}

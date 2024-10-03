@@ -1,0 +1,214 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.bgc-primary {
+    background-color: #FF4747;
+}
+.search-bar-input {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    height: 48px !important;
+}
+.search_button {
+    background-color: #ffffff;
+    color: #FF4747 !important;
+    border-radius: 0px 7px 7px 0px;
+}
+.search-dropdown .dropdown .btn {
+    background-color: #fff;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.search_form {
+    border: none;
+    border-radius: 5px;
+}
+
+.search_form .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.25rem + 2px);
+    padding: .625rem 1rem;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b566b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none !important;
+    border-radius: .3125rem;
+    box-shadow: 0 0 0 0 transparent;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out
+}
+
+.feature_header {
+    justify-content: start;
+    margin-left: -10px !important;
+}
+
+.feature_header span {
+    padding-right: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.fg-password .list-unstyled li {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit !important;
+    margin-bottom: .4rem;
+}
+
+.fg-password .text-primary{
+    color: #FF4747 !important;
+}
+
+
+.faq .list-unstyled li {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit !important;
+    padding-left: 0;
+    list-style: none;
+}
+.faq .text-muted {
+    font-weight: inherit;
+    font-size: inherit;
+    color: #7d879c !important
+}
+
+.my-order .table th, .table td{
+    padding: 0 !important;
+}
+
+.my-order .table .spandHeadO{
+    color: #ffffff !important;
+    text-align: center;
+}
+
+.img-icon {
+    width: 40px;
+    margin-right: -15px;
+}
+
+.menu-text {
+    color: rgba(255,255,255, .8);
+}
+
+.single-menu {
+    color: rgba(255,255,255, .8) !important;
+    margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+    .single-menu {
+        margin-left: 24px;
+    }
+}
+
+.bg-default {
+    background-color: #F7F8FA;
+}
+
+.bg-default .navbar-nav .nav-item .nav-link {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #1a1a1a !important;
+}
+
+.bottom-menu {
+    display: none;
+}
+.ul-nav {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul-nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.extra-menu {
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.floating-label > input + label, .floating-label > textarea + label {
+    padding: 0.600rem 0.75rem;
+}
+@media (max-width: 768px) {
+    .ul-nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: start !important;
+    }
+    .extra-menu {
+        overflow-y: scroll !important;
+        max-height: 150px !important;
+    }
+    .m-menu-b {
+        margin-bottom: 50px !important;
+    }
+    .m-menu {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .bottom-menu .menu a {
+        font-size: .8rem;
+    }
+
+    .search-form {
+        margin-top: -50px;
+        padding-left: 30px;
+    }
+    .imp-btn {
+        display: none !important;
+    }
+    .btn-scroll-top {
+        z-index: 1000; margin-bottom: 100px
+    }
+
+    .bottom-menu {
+        display: block;
+        margin-top: 75px;
+    }
+    .bottom-menu .menu {
+        background-color: #FFFFFF !important;
+        border-top: 2px solid #dedede;
+    }
+
+    .menu-tool-label {
+        position: relative;
+    }
+
+    .menu-tool-label .wishlist,
+    .menu-tool-label .cart {
+        position: absolute;
+        top: -.7000rem !important;
+        right: -.7000rem !important;
+        width: 1.25rem;
+        height: 1.25rem;
+        border-radius: 50%;
+        background-color: #FF4747 !important;
+        color: #fff;
+        font-size: .75rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.25rem;
+    }
+}
+
